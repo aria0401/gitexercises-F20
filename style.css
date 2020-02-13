@@ -1,0 +1,46 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header,
+    footer {
+        padding: 20px 15px;
+
+    }
+
+    main {
+        background: rgba(153, 153, 153, 0.54);
+        padding: 10px;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+
+    }
+
+    article {
+        background: #fff;
+        padding: 10px;
+
+    }
+
+    footer {
+        background-color: #d8eae4;
+        position: relative;
+        color: #405850
+    }
+
+    header {
+        background-color: #508875;
+        color: white;
+        text-align: center;
+        height: 100px;
+    }
+
+    @media screen and (min-width:768px) {
+        main {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+    }
